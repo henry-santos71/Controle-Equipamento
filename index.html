@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Controle de Equipamentos</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <h1>Controle de Equipamentos do Laboratório</h1>
+
+  <label for="nomeEquipamento">Nome do equipamento:</label>
+  <input type="text" id="nomeEquipamento">
+
+  <br><br>
+
+  <button onclick="adicionarEquipamento()">Adicionar</button>
+  <button onclick="removerEquipamento()">Remover</button>
+  <button onclick="exibirEquipamentos()">Exibir</button>
+  <button onclick="quantidadeEquipamentos()">Quantidade</button>
+
+  <h3>Resultado:</h3>
+  <div id="resultado"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
